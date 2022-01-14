@@ -1,4 +1,4 @@
-// alert("画像をクリックすると意味が出てきます")
+alert("画像をクリックすると意味が表示されます")
 
 let mySwiper = new Swiper ('.swiper', {
     loop: true, 

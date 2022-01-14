@@ -1,0 +1,93 @@
+
+a,
+a:focus,
+a:hover {
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  font-family: "Songti SC", "HiraMinProN-W3","serif";
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+body {
+  display: none;
+}
+
+.cover-container {
+  max-width: 55em;
+}
+
+.mb-auto.mb-auto {
+  margin-bottom: 0!important;
+  margin-top: 40px;
+}
+.masthead-brand {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+}
+
+.cover {
+  height: 600px;
+  padding: 0 1.5rem;
+}
+.cover-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  width: 100%;
+  height: 80px;
+}
+.cover-heading:before, .cover-heading:after {
+  content: '';
+  border-top: 2px solid;
+  width: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  color: white;
+
+}
+.lead1 {
+  width: 100%;
+  height: 300px;
+  font-size: 1rem;
+  padding-top: 70px;
+  margin: 0;
+}
+.lead2 {
+  height: 100px;
+}
+
+.btn  {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.btn:hover,
+.btn:focus {
+  color: black;
+}
+
+.mastfoot {
+  color: rgba(255, 255, 255, .5);
+}
+.mastfoot.mt-auto {
+  margin-top: 75px!important;
+}
